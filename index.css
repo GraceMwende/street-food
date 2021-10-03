@@ -49,3 +49,20 @@ color:#EAAB1B;
   position: relative;
   top:50px;
 }
+.menu{
+  background-color: rgb(225, 230, 225);
+}
+.burgers{
+  display: flex;
+}
+.burger_menu{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(236, 243, 236);
+  border-radius: 0 0 20px 0;
+  position: relative;
+  right:120px
+}
+.one,.two{
+display: flex;
+}
