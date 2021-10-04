@@ -32,8 +32,9 @@ color:#EAAB1B;
   color: white;
   background-color:#6CB840;
   border:none;
-  padding: 10px 20px;
+  padding: 15px 25px;
   border-radius: 16px;
+  font-size: 20px;
 }
 .eat img{
   height: 400px;
@@ -82,6 +83,7 @@ margin-bottom: 40px;
 }
 .hot_deals_section{
   background-color: #C9ECB5;
+  margin-top: 0;
 }
 .hot_deals_images img{
   height: 300px;
@@ -112,4 +114,15 @@ margin-bottom: 40px;
 .hot_deals_section:first-child{
   text-align: center;
   border: 2px solid yellow;
+}
+.contact{
+  background-color: #FFD77C;
+  text-align: center;
+}
+input[type="email"]{
+padding: 10px;
+margin: 10px;
+border-radius: 15px;
+border:none;
+width: 400px;
 }
