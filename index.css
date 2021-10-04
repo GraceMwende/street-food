@@ -80,6 +80,7 @@ color:#EAAB1B;
 }
 .eat{
   display: flex;
+  justify-content: space-evenly;
 }
 .eat_text h2{
   color: #EAAB1B;
