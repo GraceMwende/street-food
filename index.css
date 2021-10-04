@@ -1,6 +1,12 @@
 *{
   font-family: Poppins;
 }
+html,body{
+  margin:0;
+}
+body{
+  overflow-x: hidden;
+}
 nav{
   max-width: 1200px;
   font-weight: 600;
@@ -34,12 +40,12 @@ li>img{
 }
 .rounded-box{
   background-color: #649549;
-  height: 300px;
-  width: 60%;
+  height: 1200px;
+  width: 1200px;
   position: absolute;
-  right: 6px;
-  top:13px;
-  border-radius: 0 0 0 100%;
+  right: -350px;
+  top:-800px;
+  border-radius: 50%;
   opacity: 0.5;
 }
 .rotate_food{
