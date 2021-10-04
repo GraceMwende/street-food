@@ -95,13 +95,18 @@ color:#EAAB1B;
 .burgers{
   display: flex;
 }
+.burger_image{
+  
+}
 .burger_menu{
   width: 200px;
   height: 200px;
   background-color: rgb(236, 243, 236);
   border-radius: 0 0 20px 0;
   position: relative;
-  right:120px;
+  right:100px;
+  /* z-index: -1; */
+ 
 }
 .one,.two{
 display: flex;
@@ -110,12 +115,6 @@ margin-bottom: 40px;
 .one img, .two img{
   width: 200px;
   height: 200px;
-}
-.burger_image{
-  
-}
-.burger_menu{
-  
 }
 .menu_header{
   text-align: center;
