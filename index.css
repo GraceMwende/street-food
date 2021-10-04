@@ -126,3 +126,24 @@ border-radius: 15px;
 border:none;
 width: 400px;
 }
+footer{
+  margin-top: 20px;
+  background-color: #C9ECB5;
+  display: flex;
+  justify-content: space-around;
+}
+.vl{
+  position: relative;
+  top:20px;
+  border-left: 3px dotted black;
+  height:100px
+}
+.button img{
+  width:100px;
+  height:100px;
+}
+footer button{
+  background-color:#649549;
+  border:none;
+  color: white;
+}
