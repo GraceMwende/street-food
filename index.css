@@ -22,6 +22,26 @@ nav>ul>li>a{
   text-decoration: none;
   color: black;
 }
+li>img{
+  width:90px;
+  position: absolute;
+}
+.star_text{
+  position: relative;
+  top: 80px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.rounded-box{
+  background-color: #649549;
+  height: 300px;
+  width: 60%;
+  position: absolute;
+  right: 6px;
+  top:13px;
+  border-radius: 0 0 0 100%;
+  opacity: 0.5;
+}
 .part1{
 color: #649549;
 }
